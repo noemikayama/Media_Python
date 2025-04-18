@@ -4,10 +4,9 @@ num_alunos = int(input("\n\n Insira quantos alunos deseja analisar: "))
 for i in range(num_alunos):
    notas = []
 
-
    nome = input("\n\n Nome completo: ")
-
-
+ 
+ 
    prova_teorica = []
    T1 = float(input("\n Nota no T1: "))
    T2 = float(input("\n Nota no T2: "))
