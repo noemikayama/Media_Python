@@ -1,3 +1,5 @@
+print("\n\n ===============================================================================================================================\n\n")
+print("\n\t\t * Calculadora de Médias da Componente Curricular Algoritmos de Programação, Projetos e Computação * \n\n")
 alunos = []
 acima_de_5 = 0
 num_alunos = int(input("\n\n Insira quantos alunos deseja analisar: "))
@@ -6,7 +8,7 @@ for i in range(num_alunos):
 
    nome = input("\n\n Nome completo: ")
  
- 
+
    prova_teorica = []
    T1 = float(input("\n Nota no T1: "))
    T2 = float(input("\n Nota no T2: "))
@@ -55,14 +57,16 @@ n = 1
 
 
 while (n > 0):
-   print("\n\n ===============================================================")
+   print("\n\n ===================================================================================================================== \n\n")
    print("\n\t\t\t * MENU * ")
-   print("\n\t 1 - Boletim com o nome de cada aluno, sua Média Teórica(MT), Média Prática (MP) e Média Final (MF)")
+   print("\n\t 1 - Boletim com o nome de cada aluno, sua Média Teórica (MT), Média Prática (MP) e Média Final (MF)")
    print("\n\t 2 - Buscar aluno e mostrar informações")
    print("\n\t 3 - Exibir aluno com maior média final (MF)")
    print("\n\t 4 - Exibir aluno com menor média final (MF)")
    print("\n\t 5 - Percentual de alunos com média final (MF) superior a 5.0")
+
    menu = int(input("\n\n Qual opção deseja selecionar? : "))
+
    while (menu < 1 or menu > 5):
        print("\n Opção inválida! Selecione um número entre 1-5!")
        menu = int(input("\n\n Qual opção deseja selecionar? : "))
@@ -121,12 +125,6 @@ while (n > 0):
        percentual = acima_de_5 / num_alunos * 100
        print(f"\n\n O percentual de alunos com Média Final (MF) acima de 5.0 é de: {percentual:.1f}% \n\n ")
 
-
-
-
-
-
    n = int(input("\n\n Digite qualquer tecla para voltar ao menu ou 0 para encerrar o programa: "))
 
-
-
+print("\n\n\t\t\t * FIM DO PROGRAMA * \n\n")
