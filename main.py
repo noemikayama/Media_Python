@@ -50,9 +50,6 @@ for i in range(num_alunos):
    alunos.append(notas)
 
 
-print(alunos)
-
-
 n = 1
 
 
@@ -73,7 +70,7 @@ while (n > 0):
 
 
    if (menu == 1):
-       for i in range(0, num_alunos, 1):
+       for i in range(num_alunos):
            print(f"\n\n\t Boletim de {alunos[i][0]}")
            print(f"\n - Média Teórica (MT): {alunos[i][3][0]:.1f}")
            print(f"\n - Média Prática (MP): {alunos[i][3][1]:.1f}")
