@@ -105,7 +105,7 @@ while (n > 0):
                nota_maxima = alunos[i][4]
        for i in range(num_alunos):
            if (nota_maxima == alunos[i][4]):
-               print(f"\n A nota máxima é {nota_maxima:.1f} e é do aluno(a) {alunos[i][0]} \n\n")
+               print(f"\n A MF (Média Final) máxima é {nota_maxima:.1f} e é do aluno(a) {alunos[i][0]} \n\n")
 
 
    if (menu == 4):
@@ -115,7 +115,7 @@ while (n > 0):
                nota_minima = alunos[i][4]
        for i in range(num_alunos):
            if (nota_minima == alunos[i][4]):
-               print(f"\n A nota mínima é {nota_minima:.1f} e é do aluno(a) {alunos[i][0]} \n\n")
+               print(f"\n A MF (Média Final) mínima é {nota_minima:.1f} e é do aluno(a) {alunos[i][0]} \n\n")
 
 
    if (menu == 5):
